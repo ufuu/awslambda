@@ -11,7 +11,7 @@ rpm -Uvh https://s3.amazonaws.com/aaronsilber/public/authbind-2.1.1-0.1.x86_64.r
 touch /etc/authbind/byport/80
 chmod 500 /etc/authbind/byport/80
 chown ec2-user /etc/authbind/byport/80
-git clone https://github.com/vinycoolguy2015/FlaskAppCodeDeploy.git /home/ec2-user/app
+git clone https://github.com/ufuu/FlaskAppCodeDeploy.git /home/ec2-user/app
 chmod +x /home/ec2-user/app/scripts/*
 /home/ec2-user/app/scripts/install_app_dependencies
 /home/ec2-user/app/scripts/start_server
